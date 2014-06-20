@@ -11,6 +11,7 @@ body {
   position: relative;
 }
 
+//For the instructions
 .instructions {
 	position: absolute;
 	right:0;
