@@ -11,28 +11,28 @@ body {
   position: relative;
 }
 
-//For the instructions
 .instructions {
+	text-align:right;
 	position: absolute;
 	right:0;
 	left:0;
 	top:0;
-	height:50px;
+	z-index:10;
 }
 
-.instructions p span {
-	margin-left:20px;
+.instructions span {	
+	margin-right:20px;
 }
 
-.instructions p span:nth-child(1) {
+.instructions span:nth-child(1) {
 	color:blue;
 }
 
-.instructions p span:nth-child(2) {
+.instructions span:nth-child(2) {
 	color:green;
 }
 
-.instructions p span:nth-child(3) {
+.instructions span:nth-child(3) {
 	color:purple;
 } 
 
